@@ -173,7 +173,11 @@ h1 ~ #like {
 #logoLogin {
     position: absolute;
     padding: 10px;
-    left: 25%;
+    left: 0%;
     height: 50px;
     width: auto;
+}
+
+#welcome {
+    text-align: center;
 }
