@@ -17,7 +17,7 @@ header {
     z-index: 1;
 }
 
-.logo {
+#logo {
     position: absolute;
     left: 10px;
     top: 15px;
@@ -25,7 +25,7 @@ header {
     width: auto;
 }
 
-.usericon {
+#usericon {
     position: absolute;
     top: 20px;
     left: 98%;
@@ -60,13 +60,8 @@ header {
     background-color: cornflowerblue;
 }
 
-section {
-    position: relative;
-    top: 100px;
-
+.flexContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex: 1 1 0px;
-    background-color: white;
 }
