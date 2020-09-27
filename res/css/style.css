@@ -19,6 +19,10 @@ header {
     z-index: 1;
 }
 
+header:hover {
+    box-shadow: 0 -20px 40px blue;
+}
+
 #logo {
     position: absolute;
     left: 10px;
@@ -63,9 +67,45 @@ header {
 }
 
 .flexContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 50%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: white;
+    flex: 1 1 0px;
+    gap: 20px;
+}
+
+.flexContainer .post1{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+.flexContainer .post2{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1 ~ #like {
+    position: absolute;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#user {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: auto;
 }
 
 #accountCreation{
@@ -82,33 +122,32 @@ header {
     text-align: center;
 }
 
-.loginTopText + form {
+.buttonHoldLogin {
     text-align: center;
 }
 
-.buttonHoldLogin input {
+.buttonHoldLogin input,a {
     margin-bottom: 5px;
-    padding: 5px;
 }
 
-#btn_1 {
+.buttonHoldLogin > button {
     width: 75%;
     left: 65%;
     top: 20px;
     box-sizing: border-box;
     height: 30px;
+    margin: 0;
     padding: 5px;
     border: 1px solid #e0e0e0;
     cursor: pointer;
     color: white;
     background-color: cornflowerblue;
-    margin-bottom: 5px;
 }
 
 #logoLogin {
-    position: absolute;
+    position: relative;
     padding: 10px;
-    left: 25%;
+    left: -45%;
     height: 50px;
     width: auto;
 }
