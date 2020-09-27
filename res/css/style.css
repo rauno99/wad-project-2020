@@ -8,8 +8,6 @@ html, body {
     background-color: cornflowerblue;
 }
 
-
-
 header {
     position: fixed;
     top: 0;
@@ -100,6 +98,13 @@ h1 ~ #like {
     color: white;
 }
 
+#date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+}
+
 #user {
     position: absolute;
     top: 10px;
@@ -107,6 +112,13 @@ h1 ~ #like {
     height: 30px;
     width: auto;
 }
+
+.picture1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
 
 #accountCreation{
     width: 50%;
