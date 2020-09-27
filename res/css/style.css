@@ -100,10 +100,19 @@ header:hover {
     box-shadow: 0 0 10px gray;
 }
 
+.flexContainer .textpost {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
 h1 ~ #like {
     position: absolute;
     background-color: cornflowerblue;
     color: white;
+    left: 10px;
+    bottom: 10px;
 }
 
 #date {
@@ -121,12 +130,6 @@ h1 ~ #like {
     width: auto;
 }
 
-.picture1 {
-    position: absolute;
-    width: 100%;
-    height: auto;
-}
-
 
 #accountCreation{
     width: 50%;
@@ -142,32 +145,33 @@ h1 ~ #like {
     text-align: center;
 }
 
-.buttonHoldLogin {
+.loginTopText + form {
     text-align: center;
 }
 
-.buttonHoldLogin input,a {
+.buttonHoldLogin input {
     margin-bottom: 5px;
+    padding: 5px;
 }
 
-.buttonHoldLogin > button {
+#btn_1 {
     width: 75%;
     left: 65%;
     top: 20px;
     box-sizing: border-box;
     height: 30px;
-    margin: 0;
     padding: 5px;
     border: 1px solid #e0e0e0;
     cursor: pointer;
     color: white;
     background-color: cornflowerblue;
+    margin-bottom: 5px;
 }
 
 #logoLogin {
-    position: relative;
+    position: absolute;
     padding: 10px;
-    left: -45%;
+    left: 25%;
     height: 50px;
     width: auto;
 }
