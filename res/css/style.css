@@ -8,6 +8,8 @@ html, body {
     background-color: cornflowerblue;
 }
 
+
+
 header {
     position: fixed;
     top: 0;
@@ -64,4 +66,48 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#accountCreation{
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.loginTopText{
+    text-align: center;
+}
+
+.buttonHoldLogin {
+    text-align: center;
+}
+
+.buttonHoldLogin input,a {
+    margin-bottom: 5px;
+}
+
+.buttonHoldLogin > button {
+    width: 75%;
+    left: 65%;
+    top: 20px;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#logoLogin {
+    position: relative;
+    padding: 10px;
+    left: -45%;
+    height: 50px;
+    width: auto;
 }

@@ -7,24 +7,24 @@
 </head>
 <body>
     <div>
-        <section class="loginBox">
-            <div class="welcomeMessage" >
+        <section id="accountCreation" class="flexContainer">
+            <img id="logoLogin" src="res/images/logo.png" alt="LogoLogin">
+            <div>
                 <h2>Welcome to postIt!</h2>
             </div>
-            <div class="accountCreation" >
+            <div class="loginTopText">
                 <a href="https://lh3.googleusercontent.com/proxy/-q2kYUT3RoGZdWTuEaA5reAK1KugxOJdQFhMQZ3mLEOZIfecyTDbifBfms0XUUqxni86xiAenFSIL9hHIl3959DxsL2xQ3bwDcAN3PagvsAo4Ty86AQO9qQI"> Make a new account </a>
                 <br>
-                <label>OR</label>
-                <br>
-                <h3>Please Log In</h3>
+                <p>OR</p>
                 <br>
             </div>
             <form>
-                <div>
+                <div class="buttonHoldLogin">
+                    <h3>Please Log In</h3>
                     <input type="text" placeholder="Email"><br>
                     <input type="password" placeholder="Password"><br>
-                    <a href="index.html" type="button">LOGIN</a><br>
-                    <a href="">Forgot Password?</a>
+                    <button href="index.html" type="button" id="btn_1">LOGIN</button><br>
+                    <button href="" type="button" id="btn_2">Forgot Password?</button>
                 </div>
             </form>
         </section>
