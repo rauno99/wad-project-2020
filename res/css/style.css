@@ -78,6 +78,14 @@ header:hover {
     gap: 20px;
 }
 
+.flexContainer > div {
+    width: 90%;
+}
+
+#pictures {
+    max-width: 100%;
+}
+
 .flexContainer .post1{
     position: relative;
     padding-top: 100px;
