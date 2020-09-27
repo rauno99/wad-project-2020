@@ -35,6 +35,7 @@ header:hover {
     left: 98%;
     height: 30px;
     width: auto;
+    cursor: pointer;
 }
 
 .search-container > input {
@@ -113,6 +114,7 @@ h1 ~ #like {
     color: white;
     left: 10px;
     bottom: 10px;
+    cursor: pointer;
 }
 
 #date {
